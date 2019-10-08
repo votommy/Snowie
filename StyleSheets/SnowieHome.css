@@ -1,0 +1,108 @@
+body{
+	max-width: 1366px;
+	min-width: 1200px;
+	margin: 0 auto !important; /*centers the page for larger resolution screens*/
+}
+.slides {
+	margin: 2% auto 0.5% auto;
+	width: 40%;
+}
+
+.dot {
+ 	height: 10px;
+ 	width: 10px;
+ 	margin: 0px 2px;
+ 	background-color: grey;
+ 	display: inline-block;
+}
+
+.current { /*Changes color and size of the current dot*/
+	background-color: #48d3fc; /*Same color as navBar*/
+	height: 13px;
+ 	width: 13px;
+ 	margin: 0px 0.5px;
+}
+  
+.AboutUs {
+	margin-top: 0.5%;
+	margin-bottom: 1.5%;
+	background-image: url("../blueBG.png");
+	height: 150px;
+	padding-top: 1%;
+}
+
+.SnowieLogoWhite {
+	margin-top: 3%;
+	float: left;
+}
+
+.aboutUsContainer {
+	padding: 0% 12% 0% 12%;
+}
+
+.AboutUsSquare {
+	margin: 1% 0% 1% 0%;
+	width: 80%;
+	height: auto;
+	background-color: rgb(2, 0, 71); /*fallback for browsers that don't support opacity*/
+	background-color: rgba(2, 0, 71, 0.5); /*Translucent dark blue*/
+	float: right;
+}
+
+.AboutUsSquare p {
+	font-family: "Century Gothic", "Avenir";
+	color: white;
+	font-size: 18px;
+	text-align: justify;
+	margin: 3% 3% 3% 3%;
+}
+
+.imageButtonContainer {
+	margin: 0% 20% 0% 20%;
+}
+
+.flexContainer {
+	display: flex;
+}
+
+.imageButtons {
+	margin: 1.5% auto 3% auto;
+	flex-direction: row;
+}
+
+.imageButtons:hover {
+	transform: scale(1.1);
+}
+
+.pricesContainer {
+	margin: 0% 27% 0% 27%;
+}
+
+.pricesTable {
+	font-family: "Century Gothic", "Avenir";
+	font-size: 30px;
+	color: #039be6;
+	border: solid;
+	width: 100%;
+}
+
+.pricesText {
+	font-family: "Century Gothic", "Avenir";
+	font-size: 20px;
+	color: #4d4d4d; 
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+} 
+
+.pricesText a:visited {
+	color: #4d4d4d; /*keeps clickable link grey*/
+}
+
+.pricesText a:visited {
+	color: #4d4d4d;
+}
+
+@media screen and (orientation:portrait) { /*For mobile devices*/
+
+}

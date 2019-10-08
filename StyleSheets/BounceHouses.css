@@ -1,0 +1,173 @@
+body{
+	max-width: 1366px;
+	min-width: 1200px;
+	margin: 0 auto !important; /*centers the page for larger resolution screens*/
+}
+.Back2Top {
+	font-family: "Century Gothic", "Avenir";
+	font-size: 20px;
+	background-color: #039be6;
+ 	color: white;
+ 	border-style: solid;
+ 	border-color: white;
+ 	position: fixed;
+  	bottom: 10%;
+  	right: 5%;
+  	padding: 1%;
+}
+
+.Back2Top:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.bookButton {
+	font-family: "Century Gothic", "Avenir";
+	font-size: 20px;
+	background-color: #039be6;
+ 	color: white;
+ 	border-style: solid;
+ 	border-color: white;
+ 	position: fixed;
+  	top: 30%;
+  	left: 2%;
+  	padding: 1%;
+}
+
+.bookButton:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.RentalsHeading {
+	background-color: White;
+	padding: 10px;
+}
+
+.RentalsHeading a {
+	font-family: "Century Gothic", "Avenir";
+	color: #48d3fc;
+	font-size: 30px;
+}
+
+.container {
+	padding: 0% 20% 0% 20%;
+}
+
+.imageButtonContainer {
+	margin: 0% 20% 2% 20%;
+}
+
+.flexContainerButtons {
+	display: flex;
+}
+
+.imageButtons {
+	margin: 1% auto 0% auto;
+	flex-direction: row;
+}
+
+.imageButtons:hover {
+	transform: scale(1.1);
+}
+
+.blueBG {
+	background-image: url("../blueBG.png");
+	height: auto;
+}
+
+#TwelveID {
+	font-family: "Century Gothic", "Avenir";
+	font-size: 30px;
+	color: white;
+	padding: 10px;
+}
+
+#InteractiveID {
+	font-family: "Century Gothic", "Avenir";
+	font-size: 30px;
+	color: #48d3fc;
+	padding: 10px;
+}
+
+#ObstacleID {
+	font-family: "Century Gothic", "Avenir";
+	font-size: 30px;
+	color: white;
+	padding: 10px;
+}
+
+#WaterID {
+	font-family: "Century Gothic", "Avenir";
+	font-size: 30px;
+	color: #48d3fc;
+	padding: 10px;
+}
+
+.flexContainerBounce {
+	display: flex;
+	margin: 0% 10% 0% 10%;
+	justify-content: space-evenly;
+	align-items: flex-end;
+}
+
+.imageButtonBounce {
+	flex-direction: column;
+	justify-content: center;
+}
+
+.imageButtonBounce img {
+	width: 275px;
+	margin: 2.5% auto 0 auto;
+}
+
+.flexContainerInfo {
+	display: flex;
+	margin: 0% 10% 0% 10%;
+	justify-content: space-evenly;
+}
+
+.BounceHouseInfo {
+	background-color: white;
+	height: auto;
+	width: 275px;
+	margin-bottom: 2.5%;
+}
+
+.BounceHouseInfo p {
+	font-family: "Century Gothic", "Avenir";
+	color: #039be6;
+	font-size: 20px;
+	padding: 0 1% 0 1%;
+}
+
+.BounceHouseInfo ul li {
+	font-family: "Century Gothic", "Avenir";
+	color: #039be6;
+	font-size: 15px;
+}
+
+.BounceHouseInfoBlue {
+	background-color: #039be6;
+	height: auto;
+	width: 275px;
+	margin-bottom: 2.5%;
+}
+
+.BounceHouseInfoBlue p {
+	font-family: "Century Gothic", "Avenir";
+	color: white;
+	font-size: 20px;
+	padding: 0 1% 0 1%;
+}
+
+.BounceHouseInfoBlue ul li {
+	font-family: "Century Gothic", "Avenir";
+	color: white;
+	font-size: 15px;
+	padding-right: 3%;
+}
+
+@media screen and (orientation:portrait) { /*For mobile devices*/
+
+}

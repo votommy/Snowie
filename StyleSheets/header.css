@@ -1,0 +1,277 @@
+@media screen and (orientation:landscape) {
+header {
+	background-color: #039be6;
+}
+
+
+body {
+	margin: 0; /*Removes white border from edges*/
+	max-width: 1366px;
+	min-width: 1200px;
+	margin: 0 auto !important; /*centers the page for larger resolution screens*/
+}
+
+
+html, body { /*Prevents overflow or horizontal scrollbar*/
+  width: 100%;
+  /*height: 100%;*/
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+}
+}
+
+nav {
+	background-color: #48d3fc;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.navBar > ul {
+	margin-top: auto;
+	margin-bottom: auto;
+	text-align: center;
+}
+
+.navBar a {
+	font-family: "Century Gothic", "Avenir";
+	text-decoration: none; /*Removes underline from link*/
+	color: white;
+	font-size: 15px;
+}
+
+/*Dropdown menu for A&M Amusements ------------------------------------------------------------*/
+
+.amDropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.amHeading {
+  background-color: #48d3fc;
+  padding: 6px;
+	padding-left: 13px;
+	padding-right: 87px;
+	font-family: "Century Gothic", "Avenir";
+	text-decoration: none; /*Removes underline from link*/
+	color: white;
+	font-size: 15px;
+}
+
+.amHeading:hover {
+  cursor: pointer;
+  color: magenta;
+}
+
+.amDropdown a {
+	font-family: "Century Gothic", "Avenir";
+	text-decoration: none; /*Removes underline from link*/
+	color: white;
+	font-size: 15px;
+}
+
+.amList {
+  display: none; /*Hides dropdown menu when not hovered over*/
+  position: absolute;
+  background-color: rgb(153, 212, 227); /*fallback for browsers that don't support opacity*/
+  background-color: rgba(153, 212, 227, 0.7); /*Translucent blue*/
+  width: 170px; /*Sets width of box*/
+  z-index: 1;
+	margin-left: 13px;
+	margin-right: 87px;
+}
+
+.amList a {
+	font-family: "Century Gothic", "Avenir";
+	text-align: left;
+  color: darkblue;
+	padding: 12px;
+  padding-top: 5px;
+	padding-bottom: 5px;
+  text-decoration: none;
+  display: block;
+}
+
+.amList a:hover {
+	color: white;
+	background-color: rgb(80,80,80); /*fallback - grey*/
+	background-color: rgba(0,0,0,0.5); /*translucent black*/
+}
+
+.amDropdown:hover .amList {
+	display: block; /*Shows the dropdown menu when hovered over*/
+}
+
+/*Dropdown menu for Snowie ------------------------------------------------------------*/
+
+.SnowieDropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.SnowieHeading {
+  background-color: #48d3fc;
+  padding: 6px;
+	padding-left: 119px;
+	padding-right: 81px;
+	font-family: "Century Gothic", "Avenir";
+	text-decoration: none; /*Removes underline from link*/
+	color: white;
+	font-size: 15px;
+}
+
+.SnowieHeading:hover {
+  cursor: pointer;
+  color: darkblue;
+}
+
+.SnowieList {
+  display: none;
+  position: absolute;
+  background-color: rgb(153, 212, 227); /*fallback for browsers that don't support opacity*/
+  background-color: rgba(153, 212, 227, 0.7); /*Translucent blue*/
+  width: 170px; /*Sets width of box*/
+  z-index: 1;
+	margin-left: 119px;
+	margin-right: 181px;
+}
+
+.SnowieList a {
+	font-family: "Century Gothic", "Avenir";
+	text-align: left;
+  color: magenta; /*Magenta*/
+	padding: 12px;
+  padding-top: 5px;
+	padding-bottom: 5px;
+  text-decoration: none;
+  display: block;
+}
+
+.SnowieList a:hover {
+	color: white;
+	background-color: rgb(80,80,80); /*fallback - grey*/
+	background-color: rgba(0,0,0,0.5); /*translucent black*/
+}
+
+.SnowieDropdown:hover .SnowieList {
+	display: block; /*Shows the dropdown menu when hovered over*/
+}
+/*End of header ----------------------------------------------------------------------*/
+
+/*Footer ----------------------------------------------------------------------*/
+.flex {
+  display:flex;
+  flex-direction:row;
+}
+
+.fparagraph {
+  width:70%;
+  text-align: justify;
+  padding-right: 10%;
+  color: white;
+}
+.menuone{
+  padding: 55px 20px 0 20px;
+  width:20%;
+  color: white;
+}
+
+.menuone a {
+  color: white;
+  text-decoration: none;
+}
+
+.menutwo {
+  padding: 55px 20px 0 20px;
+  width:20%;
+  color: white;
+}
+
+.menutwo a {
+  color: white;
+  text-decoration: none;
+}
+
+.flextwo {
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-end;
+  align-items: center;
+}
+
+.fbook {
+  width:auto;
+  padding-left: 1%;
+  padding-right: 5%;
+}
+
+.fbook a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact {
+  width:auto;
+  padding-left: 1%;
+}
+
+.contact a {
+  color: white;
+  text-decoration: none;
+}
+
+.follow {
+  color: white;
+  padding-right: 1%;
+}
+
+.icon{
+  
+}
+
+footer {
+  padding: 0 5% 0 5%;
+  background-color: #039be6;
+  font-family: "Century Gothic", "Avenir";
+}
+
+.credits {
+  font-family: "Century Gothic", "Avenir";
+  color: white;
+}
+
+.homebutton {
+	color: white;
+}
+
+.homebutton:visited {
+	color: white;
+}
+
+@media screen and (orientation:portrait) { /*For mobile devices*/
+header {
+	background-color: #039be6;
+	min-width: 80%;
+}
+body {
+  
+}
+/*.flex {
+  flex-direction: column;
+}
+
+.fparagraph {
+  width: 100%;
+  padding: 1%;
+}
+
+.flextwo {
+  flex-direction: column;
+}
+
+.icon {
+  visibility: hidden;
+}
+*/
+}
